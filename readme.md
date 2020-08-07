@@ -62,12 +62,16 @@
 1. 查看分支
 2. 当前分支前面有*
 
-## gt branch 
+## gt branch 分支名
 1. 创建分支
 
 ## git checkout 分支名
 1. 切换分支
 
+## git branch -d 分支名
+1. 删除分支
+
 ## git merge 分支名
 1. 合并分支
+
 
