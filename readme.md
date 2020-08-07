@@ -31,3 +31,25 @@
 1. 查看文件变更信息
 
 
+## git reset --hard 版本号
+1. 退回版本 HEAD^回到上一个版本
+2. 回到指定版本
+
+## 主要几个操作
+1. git init -> 创建版本库
+2. git add 文件名 -> 工作区提交到暂存区
+3. git commit -m '注释' ->暂存区提交到本地仓库
+
+## git remote add origin 远程仓库
+1. 把本地仓库与远程关联
+
+## git remote -v
+1. 查看本地仓库关联的远程仓库地址
+
+## git push -u origin master
+1. git push 本地仓库提交到远程仓库
+2. -u origin master 设置默认远程仓库和分支
+3. 执行完这个命令之后，以后可以直接：`git push`提交到本地产库的master分支
+
+
+
