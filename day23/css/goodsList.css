@@ -1,0 +1,107 @@
+*{margin: 0;padding: 0;}
+.wrap{
+    width: 920px;
+    margin: 0 auto;
+    background-color: #ccc;
+    margin-bottom: 100px;
+}
+.header{
+    background-color: #383737;
+    box-sizing: border-box;
+    height: 80px;
+}
+.header a{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    border: 1px solid #fff;
+    float: right;
+    color: #fff;
+    margin-top: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+.header a:hover{
+    color: red;
+    border: 1px solid red;
+}
+.crumbs{
+    width: 860px;
+    border: 10px solid #383737;
+    border-top: none;
+    border-bottom:none ;
+    padding: 10px 20px;
+}
+.goodsList{
+    width: 860px;
+    margin: auto;
+    /* overflow: hidden; */
+    border: 10px solid #383737;
+    border-top: none;
+    padding: 0 20px;
+}
+.content{
+    width: 900px;
+    overflow: hidden;
+    
+}
+.goods{
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.goods:hover{
+    border-color: #414040;
+}
+.goods img{
+    width: 178px;
+    height: 178px;
+    display: block;
+}
+.goods p{
+    color: red;
+    width: 52px;
+    padding: 10px 0;
+    font-size: 18px;
+    float: left;
+    font-weight: bold;
+}
+.goods p::before{
+    content: "￥";
+    font-size: 12px;
+    font-weight: normal;
+}
+.goods h3{
+    font-size: 16px;
+    font-weight: normal;
+    color: #333333;
+    margin-top: 5px;
+}
+.goods div{
+    display: none;
+    padding: 4px 10px 4px 34px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    background: url('../img/cart.png') 5px 3px no-repeat;
+    background-size: 25px;
+    float: right;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.goods div:hover{
+    border-color: red;
+    color: red;
+}
+
+.goods:hover div{
+    display: block;
+}

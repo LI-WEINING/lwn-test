@@ -1,0 +1,95 @@
+.header{
+    width: 920px;
+    height: 80px;
+    background-color: #383737;
+    margin: auto;
+}
+.wrap{
+    width: 920px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.header h1{
+    color: #ffffff;
+    text-align: center;
+    line-height: 80px;
+}
+.goodsList{
+    width: 900px;
+    margin: auto;
+    border: 10px solid #383737;
+    border-top: none;
+}
+.title{
+    overflow: hidden;
+    width: 900px;
+    height: 40px;
+    background-color: #8b8a8a;
+}
+.buy{
+    background-color: #505050;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.title span{
+    float: left;
+    font-size: 16px;
+    line-height: 40px;
+    color: #ffffff;
+}
+.title .t1{
+    margin-left: 100px;
+}
+.title .t2{
+    margin-left: 400px;
+}
+.title .t3{
+    margin-left: 100px;
+}
+.title .t4{
+    margin-left: 100px;
+}
+.list{
+    overflow: hidden;
+    background-color: #cccccc;
+}
+.list li{
+    padding: 10px;
+    overflow: hidden;
+}
+.list li:hover{
+    background-color: #ffffff;
+}
+
+.list li img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.list li h3{
+    float: left;
+    font-weight: normal;
+    font-size: 14px;
+    width: 300px;
+    padding: 10px 0 0 15px;
+}
+.list li p{
+    float: left;
+    font-size: 14px;
+    color: red;
+    padding: 10px 0 0 126px;
+}
+.list li span{
+    float: left;
+    font-size: 14px;
+    color: blue;
+    padding: 10px 0 0 106px;
+}
+.list li em{
+    float: left;
+    font-size: 14px;
+    color: orangered;
+    padding: 10px 0 0 113px;
+    cursor: pointer;
+}

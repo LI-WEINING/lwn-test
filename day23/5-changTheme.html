@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/green.css" class="link">
+    <style>
+        .select{
+            width: 160px;
+            height: 20px;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        select{
+            width: 53px;
+            height: 20px;
+            border: none;
+            line-height: 20px;
+            outline: none;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, .5);
+        }
+        option{
+            background-color: rgba(255, 255, 255, .1);
+        }
+    </style>
+</head>
+<body>
+    <h1>莫小仙的主页</h1>
+
+    <div class="select">
+        选择主题:
+        <select>
+            <option value="-1">选择</option>
+            <option value="pink">粉色</option>
+            <option value="green">绿色</option>
+            <option value="gray">灰色</option>
+        </select>
+    </div>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/functionCookie.js"></script>
+    <script>
+        if(getCookie('style')){
+            setStyle(getCookie('style'));
+        }
+        $('select').change(function(){
+            setStyle($(this).val());
+        })
+
+       function setStyle(style){
+           switch(style){
+               case 'pink':
+                   $('.link').attr('href','./css/pink.css');
+                   setCookie({
+                       key:'style',
+                       val: style,
+                       days:15
+                   });
+                   break;
+               case 'green':
+                   $('.link').attr('href','./css/green.css');
+                   setCookie({
+                       key:'style',
+                       val: style,
+                       days:15
+                   });
+                   break;
+               case 'gray':
+                   $('.link').attr('href','./css/gray.css');
+                   setCookie({
+                       key:'style',
+                       val: style,
+                       days:15
+                   });
+                   break;
+           }
+        }
+
+
+
+    </script>
+
+</body>
+</html>

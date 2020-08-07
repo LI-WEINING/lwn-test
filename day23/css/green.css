@@ -1,0 +1,14 @@
+*{margin: 0;padding: 0;}
+h1{text-align: center;}
+h1{
+    background-color: rgb(71, 180, 71);
+    color: rgb(12, 109, 12);
+    border-bottom: 1px solid rgb(61, 158, 61);
+    text-align: center;
+    line-height: 80px;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(137, 224, 137);
+}
